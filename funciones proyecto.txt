@@ -1,0 +1,29 @@
+socket (dominio, tipo, protocolo) -> crea un socket que se comunica por el dominio especificado, el tipo de 
+comunicación a realizar y que protocolo utilizar 
+
+perror ("msj") -> muestra un mensaje de error con la cadena dada
+
+memset (direccion, c ,tamaño ) -> reemplaza los caracteres desde la dirección hasta el tamaño por el caracter c dado
+
+inet_addr (ip) -> convierte la ip a data binaria en bytes del tipo internet
+
+connect (socket,dirección,tamaño) -> conecta el socket dado a la dirección dada
+
+bzero (string, tamaño) -> borra la data en la string dada hasta el tamaño indicado
+
+strcpy (destino, origen) -> copia la cadena origen en destino
+
+send (socket,mensaje,tamaño,..) -> envia un mensaje solamente cuando hay un socket conectado.
+
+recv (socket,mensaje,tamaño,..) -> se usan para recivir mensajes de un socket
+
+close (socket) -> cierra la conexión con el socket indicado 
+
+bind (socket, direccion ,tamaño) -> enlaza la la memoria desde dirección hasta tamaño al socket
+
+listen (socket, cant) -> indica que socket va a escuchar y cuantos socket pueden comunicarse con el
+
+sizeof (variable) -> da el tamaño de la variable indicada
+
+accept (socket destino, dirección origen, tamaño) -> acepta la conexión del cliente con el servidor 
+

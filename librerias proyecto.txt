@@ -1,0 +1,11 @@
+#include <stdio.h> -> input / output macros y funciones
+
+#include <stdlib.h> -> macros y funciones de uso general
+
+#include <string.h> -> macros y funciones para manipular 
+arreglos de caracteres
+
+#include <unistd.h> -> proporciona acceso a la api del SO POSIX
+
+#include <arpa/inet.h> -> macro y funciones para operaciones de internet
+

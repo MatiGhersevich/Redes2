@@ -7,7 +7,7 @@
 int main(){
 
   char *ip = "192.168.1.3";
-  int port = 8001;
+  int puerto = 8001;
 
   int socket1;
   struct sockaddr_in direccion;
@@ -23,7 +23,7 @@ int main(){
 
   memset(&direccion, '\0', sizeof(direccion));
   addr.sin_family = AF_INET;
-  addr.sin_port = port;
+  addr.sin_port = puerto;
   addr.sin_addr.s_addr = inet_addr(ip);
 
   connect(socket1, (struct sockaddr*)&direccion, sizeof(direccion));
